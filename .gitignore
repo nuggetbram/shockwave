@@ -1,0 +1,34 @@
+src/*.exe
+src/torvacoin
+src/torvacoind
+src/test_hirocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.torvacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+hirocoin-qt
+Hirocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+hirocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+
